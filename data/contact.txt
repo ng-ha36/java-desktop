@@ -1,0 +1,5 @@
+John           :Snow           :84987234123:john@gmail.com           :12-31-1987:Family    
+An             :Ha             :84123098345:AnHa@gmail.com           :0017-08-31:Friend    
+B              :Ta             :85329622  :tab@gmail.com            :2022-03-08:Colleagues
+new            :name           :5789233   :newtest@gmail.com        :0016-03-03:New       
+test           :new            :78723     :twes@gmail.com           :2022-03-23:Family    

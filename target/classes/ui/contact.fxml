@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.asm2.controller.ContactController">
+    <children>
+        <Label layoutX="273" layoutY="19" text="Enter contact information" />
+        <TextField fx:id="search" layoutX="441" layoutY="14" prefHeight="27" prefWidth="168" />
+        <Button fx:id="btnSearch" layoutX="633" layoutY="14" mnemonicParsing="false" text="Search" onAction="#searchContact"/>
+        <TableView fx:id="tblContact" layoutX="21" layoutY="51" prefHeight="353" prefWidth="662">
+<!--            <ListView fx:id="tblGroup">-->
+
+<!--            </ListView>-->
+        </TableView>
+        <Label layoutX="14" layoutY="19" text="Filter by group" />
+        <ComboBox fx:id="cbGroup" layoutX="114" layoutY="15" prefWidth="150" />
+        <Button fx:id="btnGroup" layoutX="570" layoutY="428" mnemonicParsing="false" text="Manage Groups" onAction="#searchContact" />
+        <Button fx:id="btnDelete" layoutX="14" layoutY="435" mnemonicParsing="false" text="Delete" onAction="#searchContact"/>
+        <Button fx:id="btnUpdate" layoutX="92" layoutY="433.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="55.0" text="Update" onAction="#searchContact"/>
+        <Button fx:id="btnAdd" layoutX="179" layoutY="435" mnemonicParsing="false" text="Add" onAction="#searchContact"/>
+    </children>
+
+</AnchorPane>
